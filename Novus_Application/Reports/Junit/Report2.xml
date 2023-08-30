@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="199.050988">
+    <testcase classname="To Publish A Story in NovusApplication" name="To Create a story" time="78.574905">
+        <system-out><![CDATA[Given User Have To Login The Novus Application..............................passed
+When User Have To Navigate to The Author Tab................................passed
+And User Have To Create a New Story and Publish.............................passed
+Then To Take The ScreenShot.................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of Novus Application" name="Validate Login Function With Valid and Invalid Credentials" time="60.706498">
+        <system-out><![CDATA[Given User Has To Launch IGM Application....................................passed
+When User Has To Click Client Login button..................................passed
+And User Has To Enter Valid "<Username>" and "<Password>"...................passed
+And User Has To Click The Signin button.....................................passed
+Then User Has To Verify Credential Page.....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To Validate the Login Functionality Of Novus Application" name="Validate Login Function With Valid and Invalid Credentials 2" time="59.769585">
+        <system-out><![CDATA[Given User Has To Launch IGM Application....................................passed
+When User Has To Click Client Login button..................................passed
+And User Has To Enter Valid "<Username>" and "<Password>"...................passed
+And User Has To Click The Signin button.....................................passed
+Then User Has To Verify Credential Page.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

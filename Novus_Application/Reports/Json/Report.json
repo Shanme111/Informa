@@ -1,0 +1,325 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-18T09:10:32.720Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5336559800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "To Create a story",
+        "description": "",
+        "id": "to-publish-a-story-in-novusapplication;to-create-a-story",
+        "after": [
+          {
+            "result": {
+              "duration": 280177300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 31202764700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Have To Login The Novus Application",
+            "match": {
+              "location": "Steps_Definition.user_Have_To_Login_The_Novus_Application(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "UserName",
+                  "abin.abraham@informa.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Password",
+                  "D3lhi2023!"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5106507500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Have To Navigate to The Author Tab",
+            "match": {
+              "location": "Steps_Definition.user_Have_To_Navigate_to_The_Author_Tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23578106300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Have To Create a New Story and Publish",
+            "match": {
+              "location": "Steps_Definition.user_Have_To_Create_a_New_Story_and_Publish()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5161050700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To Take The ScreenShot",
+            "match": {
+              "location": "Steps_Definition.to_Take_The_ScreenShot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Publish A Story in NovusApplication",
+    "description": "",
+    "id": "to-publish-a-story-in-novusapplication",
+    "keyword": "Feature",
+    "uri": "file:Create_Story.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-18T09:11:43.477Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3186536400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Validate Login Function With Valid and Invalid Credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-novus-application;validate-login-function-with-valid-and-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 188916100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 157261700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Has To Launch IGM Application",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Launch_IGM_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2703389500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Has To Click Client Login button",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Click_Client_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302761400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Has To Enter Valid \"\u003cUsername\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsername\u003e\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Steps_Definition.user_Has_To_Enter_Valid_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28105634200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Has To Click The Signin button",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Click_The_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25021761200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Has To Verify Credential Page",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Verify_Credential_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-18T09:12:43.155Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7254261600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Validate Login Function With Valid and Invalid Credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-novus-application;validate-login-function-with-valid-and-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 193486100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 230398700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Has To Launch IGM Application",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Launch_IGM_Application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3050064000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Has To Click Client Login button",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Click_Client_Login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 292875200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Has To Enter Valid \"\u003cUsername\u003e\" and \"\u003cPassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\u003cUsername\u003e\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\u003cPassword\u003e\"",
+                  "offset": 41
+                }
+              ],
+              "location": "Steps_Definition.user_Has_To_Enter_Valid_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28099067900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Has To Click The Signin button",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Click_The_Signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25029082100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Has To Verify Credential Page",
+            "match": {
+              "location": "Steps_Definition.user_Has_To_Verify_Credential_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Login Functionality Of Novus Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-novus-application",
+    "keyword": "Feature",
+    "uri": "file:Login.feature",
+    "tags": []
+  }
+]
